@@ -11,7 +11,7 @@ function dImage = HybridInterpolation(bayerImage)
     dImage = uint8(postProcessing(double(dImage)));
     toc
 end
-
+ 
 function g = green(bayerPlane)
     
     bayerPlane = prepareForConv(bayerPlane);

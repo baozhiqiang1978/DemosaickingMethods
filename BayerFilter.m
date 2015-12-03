@@ -3,7 +3,7 @@ function [bayerImage] = BayerFilter(image)
     bayerImage(:,:,2) = green(image);
     bayerImage(:,:,3) = blue(image);
 end
-
+  
 function r = red(image)
     [x,y,z] = size(image);
     r = zeros(x,y,'uint8');

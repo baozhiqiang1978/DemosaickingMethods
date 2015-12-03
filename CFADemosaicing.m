@@ -2,7 +2,7 @@ function varargout = CFADemosaicing(varargin)
 % CFADEMOSAICING MATLAB code for CFADemosaicing.fig
 %      CFADEMOSAICING, by itself, creates a new CFADEMOSAICING or raises the existing
 %      singleton*.
-%
+%   
 %      H = CFADEMOSAICING returns the handle to a new CFADEMOSAICING or the handle to
 %      the existing singleton*.
 %

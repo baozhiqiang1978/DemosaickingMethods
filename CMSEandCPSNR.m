@@ -5,7 +5,7 @@ function [e,r] = CMSEandCPSNR(originalImage, DemosaicedImage, omittedPixelsWidth
         DemosaicedImage = omitPixels(originalImage, DemosaicedImage, omittedPixelsWidth);
     
     end
-    
+     
     [y x z] = size(DemosaicedImage);
     
     e = sum(sum(sum((double(originalImage - DemosaicedImage)).^2)));

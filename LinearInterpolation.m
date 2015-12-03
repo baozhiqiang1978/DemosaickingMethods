@@ -12,7 +12,7 @@ function dImage = LinearInterpolation( bayerImage)
     toc
 
 end
-
+ 
 function r = red(bayerRed)
 
     global conRedBlue;

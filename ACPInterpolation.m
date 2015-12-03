@@ -12,6 +12,7 @@ function dImage = ACPInterpolation(bayerImage)
     dImage(:,:,2) = uint8(green(double(bayerPlane))) + bayerImage(:,:,2);
     dImage(:,:,1) = bayerImage(:,:,1) + uint8(red(double(bayerImage(:,:,1)),grn));
     dImage(:,:,3) = bayerImage(:,:,3) + uint8(blue(double(bayerImage(:,:,3)),grn));
+    
     toc
 end
 
